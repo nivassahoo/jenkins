@@ -1,0 +1,157 @@
+<html>
+<head>
+<title>TestNG:  Practicing Groups</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Practicing Groups</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jul 21 01:34:14 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>14 seconds (14371 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Tools_QA.Reporting.Method1()'><b>Method1</b><br>Test class: Tools_QA.Reporting<br/>
+<a href="#Output-1833789138" onClick='toggleBox("Output-1833789138", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1833789138" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1833789138">
+Reporter 1<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>Tools_QA.Reporting@6500df86</td></tr>
+<tr>
+<td title='Tools_QA.Reporting.Method2()'><b>Method2</b><br>Test class: Tools_QA.Reporting<br/>
+<a href="#Output-150138649" onClick='toggleBox("Output-150138649", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-150138649" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-150138649">
+Reporter 2<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>Tools_QA.Reporting@6500df86</td></tr>
+<tr>
+<td title='Tools_QA.TestNG_all_annotations.bike()'><b>bike</b><br>Test class: Tools_QA.TestNG_all_annotations</td>
+<td></td>
+<td>0</td>
+<td>Tools_QA.TestNG_all_annotations@42dafa95</td></tr>
+<tr>
+<td title='Tools_QA.TestNG_all_annotations.car1()'><b>car1</b><br>Test class: Tools_QA.TestNG_all_annotations</td>
+<td></td>
+<td>0</td>
+<td>Tools_QA.TestNG_all_annotations@42dafa95</td></tr>
+<tr>
+<td title='Tools_QA.TestNG_all_annotations.car2()'><b>car2</b><br>Test class: Tools_QA.TestNG_all_annotations</td>
+<td></td>
+<td>0</td>
+<td>Tools_QA.TestNG_all_annotations@42dafa95</td></tr>
+<tr>
+<td title='Tools_QA.TestNG_all_annotations.car3()'><b>car3</b><br>Test class: Tools_QA.TestNG_all_annotations</td>
+<td></td>
+<td>0</td>
+<td>Tools_QA.TestNG_all_annotations@42dafa95</td></tr>
+<tr>
+<td title='Tools_QA.TestNG_all_annotations.scooter1()'><b>scooter1</b><br>Test class: Tools_QA.TestNG_all_annotations</td>
+<td></td>
+<td>0</td>
+<td>Tools_QA.TestNG_all_annotations@42dafa95</td></tr>
+<tr>
+<td title='Tools_QA.TestNG_all_annotations.scooter2()'><b>scooter2</b><br>Test class: Tools_QA.TestNG_all_annotations</td>
+<td></td>
+<td>0</td>
+<td>Tools_QA.TestNG_all_annotations@42dafa95</td></tr>
+<tr>
+<td title='Tools_QA.TestNG_Priority.six()'><b>six</b><br>Test class: Tools_QA.TestNG_Priority<br/>
+<a href="#Output-798244209" onClick='toggleBox("Output-798244209", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-798244209" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-798244209">
+Report-1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Tools_QA.TestNG_Priority@402a079c</td></tr>
+<tr>
+<td title='Tools_QA.TestNG_Priority.three()'><b>three</b><br>Test class: Tools_QA.TestNG_Priority<br/>
+<a href="#Output-198761306" onClick='toggleBox("Output-198761306", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-198761306" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-198761306">
+Report-1<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Tools_QA.TestNG_Priority@402a079c</td></tr>
+</table><p>
+</body>
+</html>

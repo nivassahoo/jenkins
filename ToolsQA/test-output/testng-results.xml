@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="16" passed="16">
+  <reporter-output>
+    <line>
+      <![CDATA[Report-1]]>
+    </line>
+    <line>
+      <![CDATA[Report-1]]>
+    </line>
+    <line>
+      <![CDATA[Report-1]]>
+    </line>
+    <line>
+      <![CDATA[Report-1]]>
+    </line>
+    <line>
+      <![CDATA[Report-1]]>
+    </line>
+    <line>
+      <![CDATA[Report-1]]>
+    </line>
+    <line>
+      <![CDATA[Report-1]]>
+    </line>
+    <line>
+      <![CDATA[Report-1]]>
+    </line>
+    <line>
+      <![CDATA[Report-1]]>
+    </line>
+    <line>
+      <![CDATA[Report-1]]>
+    </line>
+    <line>
+      <![CDATA[Report-1]]>
+    </line>
+    <line>
+      <![CDATA[Report-1]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite Test Two" duration-ms="11058" started-at="2017-09-03T16:10:16Z" finished-at="2017-09-03T16:10:27Z">
+    <groups>
+    </groups>
+    <test name="Firefox Test" duration-ms="12" started-at="2017-09-03T16:10:16Z" finished-at="2017-09-03T16:10:16Z">
+      <class name="Tools_QA.TestNG_Priority">
+        <test-method status="PASS" signature="three()[pri:0, instance:Tools_QA.TestNG_Priority@675d3402]" name="three" duration-ms="0" started-at="2017-09-03T21:40:16Z" finished-at="2017-09-03T21:40:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Report-1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- three -->
+        <test-method status="PASS" signature="four()[pri:0, instance:Tools_QA.TestNG_Priority@675d3402]" name="four" duration-ms="2" started-at="2017-09-03T21:40:16Z" finished-at="2017-09-03T21:40:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Report-1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- four -->
+        <test-method status="PASS" signature="six()[pri:0, instance:Tools_QA.TestNG_Priority@675d3402]" name="six" duration-ms="2" started-at="2017-09-03T21:40:16Z" finished-at="2017-09-03T21:40:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Report-1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- six -->
+      </class> <!-- Tools_QA.TestNG_Priority -->
+      <class name="Tools_QA.MultiBrowser">
+        <test-method status="PASS" signature="afterTest(java.lang.String)[pri:0, instance:Tools_QA.MultiBrowser@51565ec2]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-09-03T21:40:16Z" finished-at="2017-09-03T21:40:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:Tools_QA.MultiBrowser@51565ec2]" name="f" duration-ms="1" started-at="2017-09-03T21:40:16Z" finished-at="2017-09-03T21:40:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Tools_QA.MultiBrowser -->
+    </test> <!-- Firefox Test -->
+    <test name="Chrome Test" duration-ms="11016" started-at="2017-09-03T16:10:16Z" finished-at="2017-09-03T16:10:27Z">
+      <class name="Tools_QA.TestNG_Priority">
+        <test-method status="PASS" signature="three()[pri:0, instance:Tools_QA.TestNG_Priority@5c7fa833]" name="three" duration-ms="1" started-at="2017-09-03T21:40:27Z" finished-at="2017-09-03T21:40:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Report-1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- three -->
+        <test-method status="PASS" signature="four()[pri:0, instance:Tools_QA.TestNG_Priority@5c7fa833]" name="four" duration-ms="1" started-at="2017-09-03T21:40:27Z" finished-at="2017-09-03T21:40:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Report-1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- four -->
+        <test-method status="PASS" signature="six()[pri:0, instance:Tools_QA.TestNG_Priority@5c7fa833]" name="six" duration-ms="1" started-at="2017-09-03T21:40:27Z" finished-at="2017-09-03T21:40:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Report-1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- six -->
+      </class> <!-- Tools_QA.TestNG_Priority -->
+      <class name="Tools_QA.MultiBrowser">
+        <test-method status="PASS" signature="afterTest(java.lang.String)[pri:0, instance:Tools_QA.MultiBrowser@39aeed2f]" name="afterTest" is-config="true" duration-ms="11007" started-at="2017-09-03T21:40:16Z" finished-at="2017-09-03T21:40:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:Tools_QA.MultiBrowser@39aeed2f]" name="f" duration-ms="1" started-at="2017-09-03T21:40:27Z" finished-at="2017-09-03T21:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Tools_QA.MultiBrowser -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Suite Test Two -->
+  <suite name="Suite Test" duration-ms="10642" started-at="2017-09-03T16:10:05Z" finished-at="2017-09-03T16:10:16Z">
+    <groups>
+    </groups>
+    <test name="Firefox Test" duration-ms="42" started-at="2017-09-03T16:10:05Z" finished-at="2017-09-03T16:10:05Z">
+      <class name="Tools_QA.TestNG_Priority">
+        <test-method status="PASS" signature="three()[pri:0, instance:Tools_QA.TestNG_Priority@6ea12c19]" name="three" duration-ms="0" started-at="2017-09-03T21:40:05Z" finished-at="2017-09-03T21:40:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Report-1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- three -->
+        <test-method status="PASS" signature="four()[pri:0, instance:Tools_QA.TestNG_Priority@6ea12c19]" name="four" duration-ms="0" started-at="2017-09-03T21:40:05Z" finished-at="2017-09-03T21:40:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Report-1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- four -->
+        <test-method status="PASS" signature="six()[pri:0, instance:Tools_QA.TestNG_Priority@6ea12c19]" name="six" duration-ms="0" started-at="2017-09-03T21:40:05Z" finished-at="2017-09-03T21:40:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Report-1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- six -->
+      </class> <!-- Tools_QA.TestNG_Priority -->
+      <class name="Tools_QA.MultiBrowser">
+        <test-method status="PASS" signature="afterTest(java.lang.String)[pri:0, instance:Tools_QA.MultiBrowser@1810399e]" name="afterTest" is-config="true" duration-ms="20" started-at="2017-09-03T21:40:05Z" finished-at="2017-09-03T21:40:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:Tools_QA.MultiBrowser@1810399e]" name="f" duration-ms="1" started-at="2017-09-03T21:40:05Z" finished-at="2017-09-03T21:40:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Tools_QA.MultiBrowser -->
+    </test> <!-- Firefox Test -->
+    <test name="Chrome Test" duration-ms="10548" started-at="2017-09-03T16:10:05Z" finished-at="2017-09-03T16:10:16Z">
+      <class name="Tools_QA.TestNG_Priority">
+        <test-method status="PASS" signature="three()[pri:0, instance:Tools_QA.TestNG_Priority@1753acfe]" name="three" duration-ms="0" started-at="2017-09-03T21:40:16Z" finished-at="2017-09-03T21:40:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Report-1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- three -->
+        <test-method status="PASS" signature="four()[pri:0, instance:Tools_QA.TestNG_Priority@1753acfe]" name="four" duration-ms="1" started-at="2017-09-03T21:40:16Z" finished-at="2017-09-03T21:40:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Report-1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- four -->
+        <test-method status="PASS" signature="six()[pri:0, instance:Tools_QA.TestNG_Priority@1753acfe]" name="six" duration-ms="1" started-at="2017-09-03T21:40:16Z" finished-at="2017-09-03T21:40:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Report-1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- six -->
+      </class> <!-- Tools_QA.TestNG_Priority -->
+      <class name="Tools_QA.MultiBrowser">
+        <test-method status="PASS" signature="afterTest(java.lang.String)[pri:0, instance:Tools_QA.MultiBrowser@7c16905e]" name="afterTest" is-config="true" duration-ms="10541" started-at="2017-09-03T21:40:05Z" finished-at="2017-09-03T21:40:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:Tools_QA.MultiBrowser@7c16905e]" name="f" duration-ms="0" started-at="2017-09-03T21:40:16Z" finished-at="2017-09-03T21:40:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- Tools_QA.MultiBrowser -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Suite Test -->
+</testng-results>

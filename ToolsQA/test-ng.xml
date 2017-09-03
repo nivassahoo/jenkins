@@ -1,0 +1,27 @@
+<suite name = "Suite Test" parallel = "false">
+
+<!-- <parameter name = "Browsers" value = "Fire" /> -->
+<test name ="Firefox Test">
+ <parameter name = "Browsers" value = "Firefox" />
+
+
+<classes>
+<class name ="Tools_QA.MultiBrowser" />
+<class  name ="Tools_QA.TestNG_Priority"/>
+<!-- <class name ="Tools_QA.Reporting" /> -->
+</classes>
+
+</test>
+
+<!-- <parameter name = "Browsers" value = "Chrome" /> -->
+<test name ="Chrome Test">
+<parameter name = "Browsers" value = "Chrome" />
+
+<classes>
+<class name ="Tools_QA.MultiBrowser" />
+<class  name ="Tools_QA.TestNG_Priority"/>
+<!-- <class name ="Tools_QA.Reporting" /> -->
+</classes>
+
+</test>
+</suite>
