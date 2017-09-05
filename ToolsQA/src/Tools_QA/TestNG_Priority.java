@@ -7,7 +7,7 @@ public class TestNG_Priority {
   @Test(priority = 2)
   public void four()
   {
-	  System.out.println("Priority two");
+	  System.out.println("Priority two for jenkins");
 	  Reporter.log("Report-1");
   }
   
