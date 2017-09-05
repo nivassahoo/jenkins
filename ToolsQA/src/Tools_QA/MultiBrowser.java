@@ -55,6 +55,7 @@ public class MultiBrowser {
 			  driver.manage().window().maximize();
 		  }
 	  }
+	  
 
 
 
