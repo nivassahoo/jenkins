@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeTests"  > 
+<listeners> <listener class-name="com.test.AppTest" /> </listeners> 
+<test name="checklist" preserve-order="true"> 
+<classes>
+ <class name="com.test.AppTest" />
+ <class name="demoQA.test.AppTest" />
+ <class name="com.test.class2" />
+ <class name="demoQA.test.class2" />
+  
+  </classes>
+  </test> 
+ </suite>
