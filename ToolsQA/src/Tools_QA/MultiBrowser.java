@@ -54,6 +54,7 @@ public class MultiBrowser {
 			  driver.get("https://www.google.co.in");
 			  driver.manage().window().maximize();
 		  }
+	  
 	  }
 	  
 
